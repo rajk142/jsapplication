@@ -1,0 +1,27 @@
+﻿body
+{
+margin : 10px 50px 20px 20px;
+border : solid 1px
+}
+.outframe
+{
+margin : 10px
+}
+.head1,.searchlst
+{
+text-align : center
+}
+.list-emp
+{
+border : solid 1px;
+margin: 50px 400px 50px 40px;
+
+}
+
+.del-item
+{
+text-align : Right;
+background-color : red;
+margin: 90px;
+
+}

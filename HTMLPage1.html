@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="./StyleSheet1.css">
+	<script rel="type/javascript" src="Script1.js"> </script>
+	<meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+	<div class = "outframe" id="outframe"> 
+		<h1 class="head1">Employee list</h1>
+		<div class="searchlst">
+			Search:<input typr="text" class="searchemp">
+		</div>
+		<div class="list-emp">
+			<div class="list-item"><span class="Name">Raj</span><span class="del-item">Remove</span></div>
+			<div class="list-item"><span class="Name">Karuna</span><span class="del-item">Remove</span></div>
+			<div class="list-item"><span class="Name">Muthu</span><span class="del-item">Remove</span></div>
+			
+		</div>
+		<form class="add-item" onsubmit="addItem()">
+                               
+			<label>Add Student </label>
+                               
+            <input type="text" class="form-control" id="add-name">
+                               
+            <input type='submit' value="Click to Add" ></input>
+                
+        </form>
+	</div>
+</body>
+</html>
