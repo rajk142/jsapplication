@@ -22,6 +22,27 @@ window.onclick = function(){
 	//},false)
 	
 
+	var search = document.querySelector(".searchlst")
+	search.addEventListener("keyup",function(event){
+		var searchText = (event.target.value).toLowerCase();
+		
+		
+		document.querySelectorAll(".list-item").forEach(function(txt,index,arr){
+				var student = (txt.querySelector(".Name").innerText).toLowerCase();
+				console.log(txt);
+				if (student.indexOf(searchText) !== -1)
+				{
+					//console.log(student);
+					txt.style.backgroundColor = "green";
+				}
+				else
+				{
+					txt.style.backgroundColor = "";
+
+				}
+			})
+		
+	})
 
 
 }
